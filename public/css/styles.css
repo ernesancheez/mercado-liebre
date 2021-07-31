@@ -1,0 +1,72 @@
+@import url('/css/general.css');
+
+header img.logo{
+    width: 55%;
+    padding: 20px;
+}
+
+header form p{
+    margin: 0px 10px;
+    padding: 3px 0;
+}
+header nav ul{
+    margin: 15px 0;
+}
+
+header nav li a{
+    color: rgb(0, 0, 0);
+}
+
+header form a{
+    background-color: #FFFFFF;
+    border: 1px solid #666;
+    padding: 1px;
+    border-radius: 2px;
+    margin: 0px 10px;
+    color: black;
+}
+
+header p.compra{
+    margin: 0 ;
+    padding: 10px;
+    text-align: center;
+}
+
+header a.btn-burger{
+    width: 45px;
+    padding: 5px;
+    background-color: #1259C3;
+    display:block;
+    color:#ebebeb;
+    font-size: 25px;
+    margin: 0 auto 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: white;
+}
+
+footer div {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
+    color:#1259C3;
+}
+
+footer section h4 {
+    color: #666;
+}
+
+footer section{
+    color: #666;
+    text-align: center;
+    padding: 20px;
+}
+
+
+footer p {
+    color: #666;
+    padding: 0px 5px 20px;
+}
