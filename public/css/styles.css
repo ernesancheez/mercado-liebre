@@ -5,25 +5,33 @@ header img.logo{
     padding: 20px;
 }
 
+
 header form p{
-    margin: 0px 10px;
-    padding: 3px 0;
+    display: flex;
 }
-header nav ul{
+
+header nav ul {
     margin: 15px 0;
+    display: none;
+    
 }
 
 header nav li a{
     color: rgb(0, 0, 0);
 }
 
+header form {
+    display: flex;
+    padding: 20px;
+}
+
 header form a{
     background-color: #FFFFFF;
     border: 1px solid #666;
-    padding: 1px;
     border-radius: 2px;
-    margin: 0px 10px;
+    margin-left: 2px;
     color: black;
+
 }
 
 header p.compra{
@@ -32,16 +40,51 @@ header p.compra{
     text-align: center;
 }
 
-header a.btn-burger{
+header nav {
+    padding: 5px;
+}
+
+header nav a.btn-burger{
     width: 45px;
     padding: 5px;
     background-color: #1259C3;
     display:block;
     color:#ebebeb;
     font-size: 25px;
-    margin: 0 auto 30px;
+    margin: 10px auto 30px;
     text-align: center;
     border-radius: 5px;
+}
+
+
+main article{
+    margin: 0; 
+}
+
+main article img {
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+}
+
+
+main .banner {
+    width: 100%;
+}
+
+main section .descuento {
+    color: green;
+}
+
+main section .carrito {
+    display: inline-block;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+main section article h4{
+    display: none;
 }
 
 footer {
@@ -70,3 +113,44 @@ footer p {
     color: #666;
     padding: 0px 5px 20px;
 }
+
+@media (min-width: 361px){
+
+    main section article h4{
+        display: block;
+    }
+
+    header nav a.btn-burger{
+        display: none;
+    }
+
+    header nav ul {
+        display: block;
+    }
+    main article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+}
+
+@media (min-width: 769px){
+
+    main section article h4{
+        display: block;
+    }
+
+    header nav a.btn-burger{
+        display: none;
+    }
+
+    header nav ul {
+        display: block;
+    }
+
+    main article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+}
+
+
