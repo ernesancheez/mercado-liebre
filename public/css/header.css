@@ -1,0 +1,106 @@
+header {
+    background-color: #EAC926;
+    padding: 20px 10px 0 10px;
+}
+
+header .logo-search {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo-search form {
+    width: 100%;
+}
+
+header .logo-search input {
+    width: 100%;
+    font-size: 18px;
+}
+
+header .logo-search .logo{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 48%;
+}
+
+header .logo-search .search{
+    width: 48%;
+}
+
+header div.search form{
+    display: flex;
+}
+
+header nav {
+    display: none;
+}
+
+  header nav ul {
+    margin: 15px 0;
+    display: none;
+}
+
+  header nav ul li a {
+    color: black;
+    font-size: 12px; 
+}
+
+  header form p input {
+    display: flex;
+}
+  header p.compra {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+   
+
+  header div.btn-burger a {
+    width: 45px;
+    padding: 5px;
+    background-color: #1259C3;
+    display: block;
+    color: #EBEBEB;
+    font-size: 25px;
+    margin: 0 auto 30px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+
+  @media (min-width: 768px) {
+    header .logo-search .logo{
+        width: 32%;
+    }
+
+    header .logo-search .search{
+        width: 32%;
+    }
+
+    header p.compra{
+        width: 32%;
+    }
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 5px;
+    }
+    header div.btn-burger a {
+        display: none;
+    }
+      header nav ul {
+        display: flex;
+        
+    }
+    header nav ul li {
+        margin: 0 10px;
+    }
+    
+}
+
+  @media (min-width: 1024px) {
+      
+}

@@ -1,0 +1,90 @@
+
+main article div {
+    margin: 10px 0;
+  }
+  main article div img {
+    width: 100%;
+  }
+  main section article h4 {
+    display: none;
+  }
+  main img.banner {
+    width: 100%;
+  }
+  main section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  main section h3{
+      width: 100%;
+  }
+  main section article {
+      background-color: white;
+      margin: 10px 0;
+  }
+  main section div.descripcion {
+      border-top: 1px solid #EBEBEB;
+      position: relative;
+      padding: 15px;
+  }
+  main section div.descripcion i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39B54A;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39B54A;
+  }
+  main section div.descripcion div.precio-descuento {
+    display: flex;
+  }
+  main section div.descripcion div.precio-descuento .precio {
+    font-size: 18px;
+    flex-grow: 0.3;
+  }
+  main section div.descripcion div.precio-descuento .descuento {
+    font-size: 16px;
+    color: green;
+    flex-grow: 0.7;
+  }
+  @media (min-width: 360px) {
+    main section article h4 {
+      display: block;
+      margin: 0;
+      padding: 15px 0;
+    }
+    main section article {
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+  }
+  
+  @media (min-width: 768px) {
+      
+      main section {
+          justify-content: space-around;   
+      }
+      main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40%;
+        
+      }
+    }
+  
+  @media (min-width: 1024px) {
+      
+        main section {
+            justify-content: space-between;
+        }
+      main section article {
+          box-shadow: 0px 0px 10px rgb(100, 100, 100);
+          width: 20%;
+          
+        }
+  }
