@@ -1,18 +1,33 @@
 footer {
-    background-color: white;
+  background-color: white;
+}
+
+
+footer div {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #1259c3;
+}
+
+footer section {
+  color: #666;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  color: #666;
+  padding: 0px 5px 20px;
+}
+
+@media (min-width: 1024px) {
+  footer .conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
-  footer div {
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 2em;
-    color: #1259C3;
+  footer .conteiner section{
+    width: 33%;
   }
-  footer section {
-    color: #666;
-    text-align: center;
-    padding: 20px;
-  }
-  footer p {
-    color: #666;
-    padding: 0px 5px 20px;
-  }
+}

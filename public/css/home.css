@@ -1,11 +1,21 @@
-main article div {
+  .home main article div {
     margin: 10px 0;
   }
-  main article div img {
+  .home main article div img {
     width: 100%;
   }
-  main section article h4 {
+
+  .home main section article h4{
     display: none;
+    transition: all ease .3s;
+    font-size: 16px;
+    overflow: hidden;
+  }
+
+  .home main section article:hover h4{
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
   }
   main img.banner {
     width: 100%;
@@ -18,9 +28,13 @@ main article div {
   main section h3{
       width: 100%;
   }
-  main section article {
+  .home main section article {
       background-color: white;
       margin: 10px 0;
+      transition: all ease .3s;
+  }
+  .home main section article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
   main section div.descripcion {
       border-top: 1px solid #EBEBEB;
@@ -40,6 +54,11 @@ main article div {
     right: 20px;
     top: -15px;
     color: #39B54A;
+    transition: all ease .3s;
+  }
+  main section article:hover div.descripcion i{
+    box-shadow: 0 0 5px #39b54a;
+    transform: rotate(360deg);
   }
   main section div.descripcion div.precio-descuento {
     display: flex;
@@ -59,9 +78,7 @@ main article div {
       margin: 0;
       padding: 15px 0;
     }
-    main section article {
-      box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
+
   }
   
   @media (min-width: 768px) {
@@ -70,7 +87,6 @@ main article div {
           justify-content: space-around;   
       }
       main section article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 40%;
         
       }
@@ -82,7 +98,6 @@ main article div {
             justify-content: space-between;
         }
       main section article {
-          box-shadow: 0px 0px 10px rgb(100, 100, 100);
           width: 20%;
           
         }
